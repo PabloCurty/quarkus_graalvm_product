@@ -10,6 +10,8 @@ import lombok.extern.jackson.Jacksonized;
 @NoArgsConstructor
 @Jacksonized
 public class ProductDTO {
+    private long id;
+
     private char[] name;
 
     private char[] description;
